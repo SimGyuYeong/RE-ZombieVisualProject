@@ -24,12 +24,12 @@ public static class PoolManager
     private static event Action OnSceneUnloaded;
 
     /// <summary>
-    ///     ¿ÀºêÁ§Æ®¸¦ Ç®¿¡¼­ °¡Á®¿É´Ï´Ù.
+    ///     ì˜¤ë¸Œì íŠ¸ë¥¼ í’€ì—ì„œ ê°€ì ¸ì˜µë‹ˆë‹¤.
     /// </summary>
-    /// <param name="prefab">ÇÁ¸®ÆÕ</param>
-    /// <param name="parent">ºÎ¸ğ</param>
-    /// <typeparam name="T">ÄÄÆ÷³ÍÆ® Å¸ÀÔ</typeparam>
-    /// <returns>Ç®¸µµÈ ¿ÀºêÁ§Æ®</returns>
+    /// <param name="prefab">í”„ë¦¬íŒ¹</param>
+    /// <param name="parent">ë¶€ëª¨</param>
+    /// <typeparam name="T">ì»´í¬ë„ŒíŠ¸ íƒ€ì…</typeparam>
+    /// <returns>í’€ë§ëœ ì˜¤ë¸Œì íŠ¸</returns>
     public static T Get<T>(T prefab, Transform parent = null) where T : Object
     {
         var pool = Pool<T>.Instance;
@@ -49,14 +49,14 @@ public static class PoolManager
     }
 
     /// <summary>
-    ///     ¿ÀºêÁ§Æ®¸¦ Ç®¿¡¼­ °¡Á®¿É´Ï´Ù.
+    ///     ì˜¤ë¸Œì íŠ¸ë¥¼ í’€ì—ì„œ ê°€ì ¸ì˜µë‹ˆë‹¤.
     /// </summary>
-    /// <param name="prefab">ÇÁ¸®ÆÕ</param>
-    /// <param name="position">À§Ä¡</param>
-    /// <param name="rotation">È¸Àü</param>
-    /// <param name="parent">ºÎ¸ğ</param>
-    /// <typeparam name="T">ÄÄÆ÷³ÍÆ® Å¸ÀÔ</typeparam>
-    /// <returns>Ç®¸µµÈ ¿ÀºêÁ§Æ®</returns>
+    /// <param name="prefab">í”„ë¦¬íŒ¹</param>
+    /// <param name="position">ìœ„ì¹˜</param>
+    /// <param name="rotation">íšŒì „</param>
+    /// <param name="parent">ë¶€ëª¨</param>
+    /// <typeparam name="T">ì»´í¬ë„ŒíŠ¸ íƒ€ì…</typeparam>
+    /// <returns>í’€ë§ëœ ì˜¤ë¸Œì íŠ¸</returns>
     public static T Get<T>(T prefab, Vector3 position, Quaternion rotation, Transform parent = null) where T : Object
     {
         var pool = Pool<T>.Instance;
@@ -80,10 +80,10 @@ public static class PoolManager
     }
 
     /// <summary>
-    ///     ¿ÀºêÁ§Æ®¸¦ Ç®¿¡ ¹İÈ¯ÇÕ´Ï´Ù.
+    ///     ì˜¤ë¸Œì íŠ¸ë¥¼ í’€ì— ë°˜í™˜í•©ë‹ˆë‹¤.
     /// </summary>
-    /// <param name="obj">¹İÈ¯ÇÒ ¿ÀºêÁ§Æ®</param>
-    /// <typeparam name="T">ÄÄÆ÷³ÍÆ® Å¸ÀÔ</typeparam>
+    /// <param name="obj">ë°˜í™˜í•  ì˜¤ë¸Œì íŠ¸</param>
+    /// <typeparam name="T">ì»´í¬ë„ŒíŠ¸ íƒ€ì…</typeparam>
     public static void Release<T>(T obj) where T : Object
     {
         var pool = Pool<T>.Instance;
@@ -91,11 +91,11 @@ public static class PoolManager
     }
 
     /// <summary>
-    ///     ¿ÀºêÁ§Æ®¸¦ Ç®¿¡ ¹Ì¸® »ı¼ºÇÕ´Ï´Ù.
+    ///     ì˜¤ë¸Œì íŠ¸ë¥¼ í’€ì— ë¯¸ë¦¬ ìƒì„±í•©ë‹ˆë‹¤.
     /// </summary>
-    /// <param name="prefab">ÇÁ¸®ÆÕ</param>
-    /// <param name="count">»ı¼ºÇÒ °³¼ö</param>
-    /// <typeparam name="T">ÄÄÆ÷³ÍÆ® Å¸ÀÔ</typeparam>
+    /// <param name="prefab">í”„ë¦¬íŒ¹</param>
+    /// <param name="count">ìƒì„±í•  ê°œìˆ˜</param>
+    /// <typeparam name="T">ì»´í¬ë„ŒíŠ¸ íƒ€ì…</typeparam>
     public static void Preload<T>(T prefab, int count) where T : Object
     {
         var pool = Pool<T>.Instance;
@@ -107,10 +107,10 @@ public static class PoolManager
     }
 
     /// <summary>
-    ///     Ç®À» ºñ¿ó´Ï´Ù.
+    ///     í’€ì„ ë¹„ì›ë‹ˆë‹¤.
     /// </summary>
-    /// <typeparam name="T">ÄÄÆ÷³ÍÆ® Å¸ÀÔ</typeparam>
-    /// <param name="prefab">ÇÁ¸®ÆÕ</param>
+    /// <typeparam name="T">ì»´í¬ë„ŒíŠ¸ íƒ€ì…</typeparam>
+    /// <param name="prefab">í”„ë¦¬íŒ¹</param>
     public static void Clear<T>(T prefab) where T : Object
     {
         var pool = Pool<T>.Instance;

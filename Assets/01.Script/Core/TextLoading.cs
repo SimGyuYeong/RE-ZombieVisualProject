@@ -30,9 +30,7 @@ public class TextLoading : MonoBehaviour
     {
         UnityWebRequest _www = UnityWebRequest.Get(URL);
 
-        isLoading = true;
-        yield return _www.SendWebRequest();
-        isLoading = false;
+        yield return new WaitForSeconds(LoadingManager.Instance.LoadScene(() => _www.SendWebRequest()));
 
         string _data = _www.downloadHandler.text;
 
