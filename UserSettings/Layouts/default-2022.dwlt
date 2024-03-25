@@ -648,9 +648,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 7.0484457, y: 12.284296, z: -24.330359}
+    m_Target: {x: -3.3204958, y: 0.4388652, z: -14.246533}
     speed: 2
-    m_Value: {x: 7.0484457, y: 12.284296, z: -24.330359}
+    m_Value: {x: -3.3201168, y: 0.43829218, z: -14.245256}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -696,20 +696,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.4484495, y: -0.31742755, z: 0.17419668, w: 0.81719035}
+    m_Target: {x: -0.20070562, y: -0.11104852, z: 0.023019038, w: -0.97316915}
     speed: 2
-    m_Value: {x: 0.44922623, y: -0.31374514, z: 0.17217588, w: 0.8186057}
+    m_Value: {x: -0.20071961, y: -0.10957755, z: 0.022715656, w: -0.9732361}
   m_Size:
-    m_Target: 4.596866
+    m_Target: 5.135287
     speed: 2
-    m_Value: 4.052105
+    m_Value: 5.3772635
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 1.06047
+    m_SpeedNormalized: 0.53
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -763,10 +763,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 11}
-      m_SelectedIDs: a0eeffff
-      m_LastClickedID: -4448
-      m_ExpandedIDs: 0aecffff1afbffff
+      scrollPos: {x: 0, y: 43}
+      m_SelectedIDs: 4edbffff
+      m_LastClickedID: -9394
+      m_ExpandedIDs: 1c2affffdc79ffffe879ffff1afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -967,7 +967,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/05.Prefab
+    - Assets/06.Models
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -975,16 +975,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/05.Prefab
+  - Assets/06.Models
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Unity\RE-ZombieVisualProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 44700000
-    m_LastClickedID: 28740
-    m_ExpandedIDs: 000000001470000016700000187000001a70000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 139}
+    m_SelectedIDs: fa6f0000
+    m_LastClickedID: 28666
+    m_ExpandedIDs: 00000000c66f0000c86f0000ca6f0000cc6f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1012,7 +1012,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001470000016700000187000001a700000
+    m_ExpandedIDs: 00000000c66f0000c86f0000ca6f0000cc6f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -20918,7 +20918,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -26580,7 +26580,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 418114887}
-  m_VersionIndex: 12128
+  m_VersionIndex: 12131
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -40144,6 +40144,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2709552421658540321, guid: 36d3a9dc011ab024fbe32d5b18d8d154, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 14a25759a25264447b6bb68971a44b10, type: 2}
+    - target: {fileID: 3601299156564060753, guid: 36d3a9dc011ab024fbe32d5b18d8d154, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.605
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601299156564060753, guid: 36d3a9dc011ab024fbe32d5b18d8d154, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.12
+      objectReference: {fileID: 0}
     - target: {fileID: 6447801585755284293, guid: 36d3a9dc011ab024fbe32d5b18d8d154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.618
@@ -40187,6 +40199,14 @@ PrefabInstance:
     - target: {fileID: 7134295238958424332, guid: 36d3a9dc011ab024fbe32d5b18d8d154, type: 3}
       propertyPath: m_Name
       value: BookStoreSet
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553309312335427391, guid: 36d3a9dc011ab024fbe32d5b18d8d154, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.873
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553309312335427391, guid: 36d3a9dc011ab024fbe32d5b18d8d154, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.798
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
