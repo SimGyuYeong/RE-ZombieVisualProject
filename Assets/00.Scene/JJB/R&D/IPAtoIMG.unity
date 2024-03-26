@@ -204,7 +204,7 @@ GameObject:
   - component: {fileID: 244711438}
   - component: {fileID: 244711437}
   m_Layer: 0
-  m_Name: "[ \u3161 ]"
+  m_Name: "4 [ \u3161 ]"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -309,7 +309,7 @@ GameObject:
   - component: {fileID: 477313254}
   - component: {fileID: 477313253}
   m_Layer: 0
-  m_Name: "[ \u3163 ]"
+  m_Name: "5 [ \u3163 ]"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -483,7 +483,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 595871901}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1193653502}
+        m_TargetAssemblyTypeName: MouthChangeManager, Assembly-CSharp
+        m_MethodName: Check
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &595871901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -669,7 +681,7 @@ GameObject:
   - component: {fileID: 680047501}
   - component: {fileID: 680047500}
   m_Layer: 0
-  m_Name: "[ \u3150 ]"
+  m_Name: "7 [ \u3150 ]"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1096,7 +1108,7 @@ GameObject:
   - component: {fileID: 1078957764}
   - component: {fileID: 1078957763}
   m_Layer: 0
-  m_Name: "[ \u314F ]"
+  m_Name: "0 [ \u314F ]"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1309,6 +1321,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113774243}
   m_CullTransparentMesh: 1
+--- !u!1 &1193653501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1193653503}
+  - component: {fileID: 1193653502}
+  m_Layer: 0
+  m_Name: MouthChangeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1193653502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193653501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b3c99a7a308eb4aa0e2193739cb639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ipaString: ei
+  vowelIPAList: 690065005b026100510254026f0075007900f8005301760252028c0264026f02680289026a028f028a02590275025002e6005c025a025e025802
+  vowelMouthTypeList: 0600000007000000070000000800000008000000020000000300000004000000090000000a00000002000000020000000200000002000000020000000500000005000000040000000700000002000000040000000200000002000000010000000800000002000000020000000200000002000000
+  nowMouthShape: 000000000000000000
+  nowMouthType: 0000000000000000000000
+--- !u!4 &1193653503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193653501}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.42110407, y: 2.428116, z: 17.994028}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1591271224
 GameObject:
   m_ObjectHideFlags: 0
@@ -1322,7 +1383,7 @@ GameObject:
   - component: {fileID: 1591271226}
   - component: {fileID: 1591271225}
   m_Layer: 0
-  m_Name: "[ \u3154 ]"
+  m_Name: "6 [ \u3154 ]"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1427,7 +1488,7 @@ GameObject:
   - component: {fileID: 1676668608}
   - component: {fileID: 1676668607}
   m_Layer: 0
-  m_Name: "[ \u315C ]"
+  m_Name: "3 [ \u315C ]"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1635,7 +1696,7 @@ GameObject:
   - component: {fileID: 2069286118}
   - component: {fileID: 2069286117}
   m_Layer: 0
-  m_Name: "[ \u3157 ]"
+  m_Name: "2 [ \u3157 ]"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1740,7 +1801,7 @@ GameObject:
   - component: {fileID: 2129096564}
   - component: {fileID: 2129096563}
   m_Layer: 0
-  m_Name: "[ \u3153 ]"
+  m_Name: "1 [ \u3153 ]"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1848,3 +1909,4 @@ SceneRoots:
   - {fileID: 680047503}
   - {fileID: 43125949}
   - {fileID: 1872805270}
+  - {fileID: 1193653503}
